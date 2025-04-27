@@ -141,10 +141,10 @@ Ya mencionados en el apartado anterior.
 ## Diagramas UML
 
 ### Diagrama de Casos de Uso
-![Diagrama de casos de uso](diagrams/casos_uso.png)
+[Diagrama de casos de uso](diagrams/casos_uso.png)
 
 ### Diagrama de Clases
-![Diagrama de clases](diagrams/clases.png)
+[Diagrama de clases](diagrams/clases.png)
 
 ## Estructura del Proyecto
 
@@ -160,23 +160,15 @@ torneo-esports-uml/
 │   ├── clases.png      # Diagrama de clases
 ├── README.md           # Este archivo que estás creando
 ├── .gitignore          # Archivos que no deben subirse a GitHub
-├── LICENSE (opcional)  # Licencia del proyecto (si tienes una)
 
-## Instalación y Ejecución
 
-1. Clonar el repositorio:
-   `git clone https://github.com/BeatrizWali/torneo-esports-uml.git`
 
-2. Compilar y ejecutar el proyecto:
-   `cd src`
-   `javac es/empresa/torneo/Main.java`
-   `java es.empresa.torneo.Main`
 
 ## Justificación del Diseño
 
-Elegí dividir el sistema en diferentes clases como **Equipo**, **Jugador**, **Torneo** y **Partida** porque esto hace que sea más fácil entender y manejar el proyecto. Cada clase tiene una responsabilidad clara, como gestionar equipos o manejar torneos. Esto es muy útil para mantener el código organizado y fácil de cambiar si necesitamos hacer algo nuevo más adelante.
+Elegí dividir el sistema en diferentes clases como **Equipo**, **Jugador**, **Torneo** y **Partida** porque es más facil de enter. Cada clase tiene una responsabilidad, como gestionar equipos o manejar torneos. Esto es muy útil para mantener el código organizado y fácil de cambiar si necesitamos hacer algo nuevo más adelante.
+
 
 ## Conclusiones
-
-Este proyecto me ayudó a entender cómo organizar y estructurar un sistema usando **UML** y **Java**. Aprendí a diseñar un sistema modular, lo que facilita agregar nuevas funcionalidades o cambiar partes sin afectar el resto del sistema. También entendí la importancia de dividir un sistema en clases claras y bien organizadas.
-# torneo-esports-uml
+Me ha ayudado a entender cómo organizar y estructurar un sistema usando UML.  También entendí la importancia de dividir un sistema en clases claras y bien organizadas.
+El diseño modular facilita la escalabilidad y mantenimiento del sistema.
